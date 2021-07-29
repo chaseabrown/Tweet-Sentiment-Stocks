@@ -1,0 +1,354 @@
+In ZipStarting file: twitter-stream-2020-09-22.zip
+In Zip
+Bad Zip
+That last one took: 1.320242021
+Starting file: twitter-stream-2020-09-23.zip
+In Zip
+Bad Zip
+That last one took: 0.005747014999999855
+Starting file: twitter-stream-2020-09-27.zip
+In Zip
+Bad Zip
+That last one took: 0.004429699999999981
+Starting file: twitter-stream-2020-09-26.zip
+In Zip
+Bad Zip
+That last one took: 0.004420003999999977
+Starting file: twitter-stream-2020-09-18.zip
+In Zip
+File Unzipped
+In Loop
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 1980.853583147
+Starting file: twitter-stream-2020-09-30.zip
+In Zip
+Bad Zip
+That last one took: 0.0041246099999625585
+Starting file: twitter-stream-2020-09-24.zip
+In Zip
+Bad Zip
+That last one took: 0.002582166999900437
+Starting file: twitter-stream-2020-09-25.zip
+In Zip
+File Unzipped
+In Loop
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 2442.4841402810007
+Starting file: twitter-stream-2020-09-19.zip
+In Zip
+Bad Zip
+That last one took: 0.012857808999797271
+Starting file: ._twitter-stream-2020-09-05.zip
+In Zip
+Bad Zip
+That last one took: 0.03739135899922985
+Starting file: ._twitter-stream-2020-09-06.zip
+In Zip
+Bad Zip
+That last one took: 0.040056808999906934
+Starting file: ._twitter-stream-2020-09-07.zip
+In Zip
+Bad Zip
+That last one took: 0.027611282000179926
+Starting file: twitter-stream-2020-09-22.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.043970514
+Starting file: twitter-stream-2020-09-23.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.016721405999999994
+Starting file: twitter-stream-2020-09-27.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.006332135999999988
+Starting file: twitter-stream-2020-09-26.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.523175776
+Starting file: twitter-stream-2020-09-18.zip
+In Zip
+Starting file: ._twitter-stream-2020-09-05.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.110140509
+Starting file: ._twitter-stream-2020-09-06.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.06275479000000006
+Starting file: ._twitter-stream-2020-09-07.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.12070289999999995
+Starting file: ._twitter-stream-2020-09-08.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.063066065
+Starting file: twitter-stream-2020-11-16.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.018852635000000006
+Starting file: twitter-stream-2020-11-02.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.044070571
+Starting file: ._twitter-stream-2020-09-07.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.019848631000000005
+Starting file: ._twitter-stream-2020-09-08.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.017708677000000006
+Starting file: twitter-stream-2020-11-16.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.015443509000000022
+Starting file: twitter-stream-2020-11-02.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.012244235999999908
+Starting file: twitter-stream-2020-11-03.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.01080565499999997
+Starting file: twitter-stream-2020-11-17.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.021654491999999914
+Starting file: ._twitter-stream-2020-09-07.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.15700081499999996
+Starting file: ._twitter-stream-2020-09-08.zip
+In Zip
+Bad Zip
+File is not a zip file
+Starting file: twitter-stream-2020-11-16.zip
+In Zip
+Bad Zip
+File is not a zip file
+That last one took: 0.011328245
+Starting file: twitter_stream_2020_04_26.tar
+In Tar
+File Unzipped
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 1710.700866172
+Starting file: twitter_stream_2020_04_13.tar
+In Tar
+File Unzipped
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 2780.798427349
+Starting file: twitter_stream_2020_04_04.tar
+In Tar
+File Unzipped
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 1017.0589359630003
+Starting file: twitter-stream-2020-09-22.zip
+In Zip
+File Unzipped
+In Loop
+In Loop
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 748.381967279
+Starting file: twitter-stream-2020-09-09.zip
+In Zip
+File Unzipped
+In Loop
+In Loop
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 1908.126381081
+Starting file: twitter_stream_2020_06_14.tar
+In Tar
+File Unzipped
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 2639.869381477
+Starting file: twitter_stream_2020_06_22.tar
+In Tar
+File Unzipped
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 2212.884446737
+Starting file: twitter-stream-2020-08-18.zip
+In Zip
+Bad Zip
+[Errno 2] No such file or directory: '/Volumes/My Data/Time Series Data/Torrent Download/archiveteam-twitter-stream-2020-08twitter-stream-2020-08-18.zip'
+That last one took: 0.017274545000000002
+Starting file: twitter-stream-2020-08-01.zip
+In Zip
+Bad Zip
+[Errno 2] No such file or directory: '/Volumes/My Data/Time Series Data/Torrent Download/archiveteam-twitter-stream-2020-08twitter-stream-2020-08-01.zip'
+That last one took: 0.023953379999999996
+Starting file: twitter-stream-2020-08-08.zip
+In Zip
+Bad Zip
+[Errno 2] No such file or directory: '/Volumes/My Data/Time Series Data/Torrent Download/archiveteam-twitter-stream-2020-08twitter-stream-2020-08-08.zip'
+That last one took: 0.009435653999999988
+Starting file: twitter-stream-2020-08-18.zip
+In Zip
+File Unzipped
+In Loop
+In Loop
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 763.750432835
+Starting file: twitter-stream-2020-08-01.zip
+In Zip
+File Unzipped
+In Loop
+In Loop
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 1750.219991929
+Starting file: twitter-stream-2020-08-08.zip
+In Zip
+File Unzipped
+In Loop
+In Loop
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 1170.302702857
+Starting file: twitter_stream_2020_05_27.tar
+In Tar
+Bad Tar
+[Errno 2] No such file or directory: '/Volumes/My Data/Time Series Data/Torrent Download/archiveteam-twitter-stream-2020-05twitter_stream_2020_05_27.tar'
+That last one took: 0.209742638
+Starting file: twitter_stream_2020_05_04.tar
+In Tar
+Bad Tar
+[Errno 2] No such file or directory: '/Volumes/My Data/Time Series Data/Torrent Download/archiveteam-twitter-stream-2020-05twitter_stream_2020_05_04.tar'
+That last one took: 0.02235483100000002
+Starting file: twitter_stream_2020_05_27.tar
+In Tar
+File Unzipped
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 762.64045276
+Starting file: twitter_stream_2020_05_04.tar
+In Tar
+File Unzipped
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 1733.928795758
+Starting file: twitter-stream-2020-07-28.zip
+In Zip
+File Unzipped
+In Loop
+In Loop
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 2516.914430635
+Starting file: twitter-stream-2020-07-07.zip
+In Zip
+File Unzipped
+In Loop
+In Loop
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 3319.992345651
+Starting file: twitter-stream-2020-12-03.zip
+In Zip
+File Unzipped
+In Loop
+In Loop
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 538.0877538469999
+Starting file: twitter-stream-2020-12-09.zip
+In Zip
+File Unzipped
+In Loop
+In Loop
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 1451.6408498740002
+Starting file: twitter-stream-2020-12-22.zip
+In Zip
+File Unzipped
+In Loop
+In Loop
+In Loop
+In Loop
+In Loop
+Moving Files
+Deleting Files
+That last one took: 2788.3601819399996
