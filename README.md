@@ -25,7 +25,7 @@ As far as stock data goes, while we are using the Yahoo Finance API for stock da
 
 For our Model, we further reduced our dataset to stocks that were showing a higher correlation between their stock and tweet data than the others. This consisted of stocks one might expect, such as AAPL, TSLA, AMZN, and about 10 others. We also switched to live hourly data for our model as that is a much more reliable data source, and it is the only practical option for the model in the real world. This consisted of roughly 300,000 tweets over the course of 2 weeks.
 
-![Data Collected](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/dataCollected.PNG "Data Collected")
+![Data Collected](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/dataCollected.PNG "Data Collected")
 
 ## Exploratory Analysis
 
@@ -57,21 +57,21 @@ To start our analysis, we used the data we had collected and created a data fram
 
 Below we have included a correlation matrix showing the magnitude of the correlation between some of the variables from the data set. This will be useful as we move forward through the analysis:
 
-![Correlation Chart](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/correlationChart.png "Correlation")
+![Correlation Chart](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/correlationChart.png "Correlation")
 
 
 One interesting thing that caught our attention in Figure 2 is that the correlations between emotion scores from yesterday and whether or not the stock price increased that day are extremely similar as the correlations between emotion scores from the same day and whether or not the stock price increased that day. Our initial belief would’ve been that the emotion scores from yesterday would have had a higher correlation since people’s emotions change and then the stock price reacts. Determining whether the emotion scores are predictive, reactive, both, or neither will be something that we will be focusing on a lot as our analysis continues.
 Next, I want a quick glance at the distributions of the daily averages of the emotion scores. This will also be useful, so we can determine how strongly an emotion is for a tweet compared to other tweets.
 
-![Averages](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/averageCount.jpg "Averages")
+![Averages](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/averageCount.jpg "Averages")
 
 
-![Volume](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/volume.jpeg "Volume")
+![Volume](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/volume.jpeg "Volume")
 
 
 Next, we have a graph that shows the relationship between the volume of tweets collected for said stock during that day and the daily average sentiment score with it conditioned on whether the stock price increased that day. At first glance, it appears interesting that there is a steeper slope for when the price did increase than when price did not increase. Following that, we have a graph that shows the relationship between the volume of stock traded that day and the tweet volume conditioned on whether the stock price increased that day. At initial glance, it appears that both relationships look similar, but further analysis should be done.
 
-![Autozone](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/autozone.jpg "Autozone")
+![Autozone](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/autozone.jpg "Autozone")
 
 When looked at across all of our stocks, it is clear that there is no general rule of a relationship between our twitter sentiment variables and stock price. This is not the case when you look at the stocks individually, as shown in Figure 5. We will look into more stocks in our next batch of analysis and find more consistent trends.
 
@@ -79,16 +79,16 @@ When looked at across all of our stocks, it is clear that there is no general ru
 
 After gathering our dataset, we looped through each stock and ran correlation tests on 3 versions of the dataset. We made changes to our dataset that let us see how well our twitter data correlated with the previous days stock data and the day after. The goal of this is to test whether or not twitter is tracking the stock market live, or whether there are predictive or reactive elements to it. In short, after we eliminated any correlation test that had less than 100 data points, leaving us with 3627 features to test, we found that 44 features had medium and 2 had strong correlation between stock elements tweet elements. Every single time it was a connection between stock price and daily stock volume being compared to tweet volume. Here are some of those findings more close up:
 
-![Pearson AAPL](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/p1.png "Pearson AAPL")
-![Spearman AAPL](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/s1.png "Spearman AAPL")
-![Pearson NVDA](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/p2.png "Pearson NVDA")
-![Spearman NVDA](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/s2.png "Spearman NVDA")
-![Pearson NFLX](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/p3.png "Pearson NFLX")
-![Spearman NFLX](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/s3.png "Spearman NFLX")
-![Pearson TSLA](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/p4.png "Pearson TSLA")
-![Spearman TSLA](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/s4.png "Spearman TSLA")
-![Pearson FB](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/p5.png "Pearson FB")
-![Spearman FB](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/s5.png "Spearman FB")
+![Pearson AAPL](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/p1.png "Pearson AAPL")
+![Spearman AAPL](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/s1.png "Spearman AAPL")
+![Pearson NVDA](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/p2.png "Pearson NVDA")
+![Spearman NVDA](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/s2.png "Spearman NVDA")
+![Pearson NFLX](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/p3.png "Pearson NFLX")
+![Spearman NFLX](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/s3.png "Spearman NFLX")
+![Pearson TSLA](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/p4.png "Pearson TSLA")
+![Spearman TSLA](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/s4.png "Spearman TSLA")
+![Pearson FB](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/p5.png "Pearson FB")
+![Spearman FB](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/s5.png "Spearman FB")
 
 The number of medium or strong correlated features for the day before and after dropped from 9 each. This pretty conclusively shows that that is little to no correlation between our twitter data and the market moving the day before or after. The main interpretation at this point is there is a partial correlation between stock volume and tweet volume in reference to that stock and this happens live. While we did not find any correlation between our sentiment analysis and the market, there is a lot of potential error to keep in mind. First off, the data set is sampled based on all of twitter, not just stock tweets, so there is not a consistent proportion of stock tweets at any given time. Another issue is the limitation in sentiment analysis technology. Given the size of our dataset, it is possible errors were overlooked.
 
@@ -101,11 +101,11 @@ Step 1: We chose 21 stocks that we found to have the strongest correlations with
 
 Step 2: We collected hourly data for each weekday for each stock. We did this using the Twitter API. Since the Twitter API only allows you to retrieve tweets going back 7 days, we collected this data over the course of the month of April. At the beginning of our data collection process, we were collecting a maximum of 500 tweets per stock each day. This was due to data retrieval timing. As we collected data throughout the month, we tried a different number of max tweets to pull in order to find the most efficient and effective number of tweets to pull. At the end of our data collection, we were pulling a maximum of 10,000 tweets per stock each day. While 10,000 was the maximum, none of the stocks ever had 10,000 tweets associated with it. The tweet sentiments were averaged for thehour from all the tweets collected for that hour. The figure below shows a subset of the hourly data. It shows Tesla’s hourly data for April 7th, 2021. As you can see from the figure, we have open price for the hour, closing price for the hour, mean happy score, mean angry score, mean surprise score, mean sad score, mean fear score, mean sentiment score, volume of stock traded that hour, and volume of tweets collected that hour.
 
-![Data](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/figureA.png "Data")
+![Data](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/figureA.png "Data")
 
 Step 3: We took the daily mean, maximum, minimum, and standard deviation of the hourly emotion sentiment scores for each stock. A subset of this data is shown below. It represents the data collected from the week of April 6th to April 9th for Tesla’s stock. From the figure, you can see that we have the starting open price of the stock that day, the ending close price of the stock that day, the mean happy score, the maximum happy score, minimum happy score, and standard deviation happy score. While the figure only shows happy, we also have those features for angry, surprise, sad, and fear as well.
 
-![Subset](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/figureB.png "Subset")
+![Subset](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/figureB.png "Subset")
 
 Step 4: We created a new column called “increase.” This column is TRUE if the stock price closes higher on the next workday than it did today. It is FALSE otherwise. This is our target variable. It is worthy to note that the breakdown of the increase column was 55% FALSE and 45
 
@@ -129,7 +129,7 @@ Step 6: Using correlations (albeit very weak), we tried multiple machine learnin
 
 The ROC curve for our model is labeled below. The ROC curve plots the false positive rate against the sensitivity, which is the true positive rate for different values as the cutoff point. Our area under the curve is 0.58. While this may seem like not a great value, it seems decent given the context of the problem. We are trying to predict the stock market. This is something that experts have been trying to predict for 100s of years. If we were able to predict the stock market with a very high AUC, we’d be millionaires. Given that we are trying to predict a money making environment, an AUC of 0.58 looks promising in our opinion.
 
-![ROC Curve](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/figureC.png "ROC Curve")
+![ROC Curve](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/figureC.png "ROC Curve")
 
 ### Confusion Matrix
 
@@ -150,7 +150,7 @@ P-Value = p(Accuracy > No Information Rate) = 0.03
 
 The figure below shows the observed value of increase given the predicted value. When our model predicts FALSE, it is correct 64.10% of the time. When our model predicts TRUE, it is correct 63.74% of the time. Keep in mind that this model is just another tool to help you in the stock market. It is not an end all be all to investment strategies. Additionally, our model does not detect the magnitude of rises and falls. It just detects whether or not a stock price goes up or down. It is possible that 36% of wrong predictions could equal the same magnitude as 64% of correct predictions. While further exploration could be done using linear regression to detect magnitude of increases or decreases, we focused on classification models.
 
-![Ratio Correct](https://github.com/chaseabrown/Python-Tweet-Sentiment-Stocks-/blob/main/figureF.png "Ratio Correct")
+![Ratio Correct](https://github.com/chaseabrown/Tweet-Sentiment-Stocks/blob/main/images/figureF.png "Ratio Correct")
 
 ## Conclusion
 
